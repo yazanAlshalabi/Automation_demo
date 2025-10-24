@@ -1,0 +1,24 @@
+{
+  "name": "playwright-ts-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Playwright automation project using TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test-headed": "playwright test --headed",
+    "build": "tsc",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation"
+  ],
+  "author": "Yazan Al-Shalabi",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@playwright/test": "^1.48.0"
+  }
+}
