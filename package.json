@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "description": "A Playwright automation project using TypeScript.",
-  "main": "index.js",
   "scripts": {
     "test": "playwright test",
     "test-headed": "playwright test --headed",
@@ -18,7 +17,8 @@
   ],
   "author": "Yazan Al-Shalabi",
   "devDependencies": {
-    "typescript": "^5.4.0",
-    "@playwright/test": "^1.48.0"
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "typescript": "^5.4.0"
   }
 }

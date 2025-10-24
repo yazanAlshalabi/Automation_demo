@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "rootDir": "./src"
+    "types": ["@playwright/test",
+    "node"],
+    "outDir": "dist"
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src", "tests", "playwright.config.ts"]
 }

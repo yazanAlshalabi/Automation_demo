@@ -1,0 +1,5 @@
+node-modules
+playwright-report
+playwright/cache
+.test-results
+.DS_Store
