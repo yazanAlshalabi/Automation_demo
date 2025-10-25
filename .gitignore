@@ -1,4 +1,3 @@
-node-modules
 playwright-report
 playwright/cache
 .test-results
